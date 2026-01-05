@@ -15,7 +15,7 @@ const nextConfig = {
   i18n: {
     locales: ['zh-TW', 'en', 'ne'],
     defaultLocale: 'zh-TW',
-    localeDetection: true,
+    localeDetection: false,
   },
   
   // Compression
@@ -80,7 +80,7 @@ const nextConfig = {
   
   // Experimental features for better performance
   experimental: {
-    optimizeCss: true,
+    // optimizeCss requires critters package, removed to avoid build errors
     optimizePackageImports: ['lucide-react'],
   },
 }
