@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'ne_NP',
-    alternateLocale: ['zh_TW', 'en_US'],
+    alternateLocale: ['en_US', 'zh_TW'],
     url: 'https://ak8win.com',
     title: 'AK8 Casino Nepal - Most Trusted Online Casino 2025',
     description: "Nepal's #1 online casino with 2000+ games. Licensed, secure, and trusted by 500,000+ players. Get NPR 50,000 welcome bonus!",
@@ -69,8 +69,8 @@ export const metadata: Metadata = {
     canonical: 'https://ak8win.com',
     languages: {
       'ne': 'https://ak8win.com/ne',
-      'zh-TW': 'https://ak8win.com/zh-TW',
       'en': 'https://ak8win.com/en',
+      'zh-TW': 'https://ak8win.com/zh-TW',
     },
   },
   verification: {

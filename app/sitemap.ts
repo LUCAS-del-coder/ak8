@@ -24,7 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/privacy',
   ]
 
-  const locales = ['ne', 'zh-TW', 'en']
+  const locales = ['ne', 'en', 'zh-TW']
 
   const sitemap: MetadataRoute.Sitemap = []
 
@@ -38,8 +38,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         alternates: {
           languages: {
             'ne': `${baseUrl}/ne${route}`,
-            'zh-TW': `${baseUrl}/zh-TW${route}`,
             'en': `${baseUrl}/en${route}`,
+            'zh-TW': `${baseUrl}/zh-TW${route}`,
           },
         },
       })
