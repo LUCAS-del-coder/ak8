@@ -13,8 +13,8 @@ const nextConfig = {
   
   // Internationalization (i18n) configuration
   i18n: {
-    locales: ['zh-TW', 'en', 'ne'],
-    defaultLocale: 'zh-TW',
+    locales: ['ne', 'zh-TW', 'en'],
+    defaultLocale: 'ne',
     localeDetection: false,
   },
   

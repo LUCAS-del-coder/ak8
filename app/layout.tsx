@@ -43,8 +43,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    locale: 'zh_TW',
-    alternateLocale: ['en_US', 'ne_NP'],
+    locale: 'ne_NP',
+    alternateLocale: ['zh_TW', 'en_US'],
     url: 'https://ak8win.com',
     title: 'AK8 Casino Nepal - Most Trusted Online Casino 2025',
     description: "Nepal's #1 online casino with 2000+ games. Licensed, secure, and trusted by 500,000+ players. Get NPR 50,000 welcome bonus!",
@@ -68,9 +68,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://ak8win.com',
     languages: {
+      'ne': 'https://ak8win.com/ne',
       'zh-TW': 'https://ak8win.com/zh-TW',
       'en': 'https://ak8win.com/en',
-      'ne': 'https://ak8win.com/ne',
     },
   },
   verification: {
@@ -86,7 +86,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="zh-TW">
+    <html lang="ne">
       <head>
         {/* Preconnect for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
